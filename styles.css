@@ -335,56 +335,56 @@
         overflow: hidden;
      }
 
-     .materias-escolares .card.vertical h3 {
+     .materias-escolares .card h3 {
         font-size: 2rem;
         font-weight: bolder;
         margin-top: 5rem;
         margin-bottom: 2rem;
     }
 
-    .materias-escolares .card.vertical .conteudo-card p {
+    .materias-escolares .card .conteudo-card p {
         font-size: 0.9rem;
     }
 
-    .materias-escolares .card.vertical {
+    .materias-escolares .card {
         flex-direction: column;
         padding: 0px;
-        width: 70%;
+        width: 90%;
     }
 
-    .materias-escolares .card.vertical .pessoa-materia {
+    .materias-escolares .card .pessoa-materia {
         justify-content: center;
         align-items: center;
         width: 100%;
         margin-right: 0px;
     }
 
-    .materias-escolares .card.vertical .texto-conteudo-materia {
+    .materias-escolares .card .texto-conteudo-materia {
         justify-content: center;
         align-items: center;
         width: 100%;
         padding-top: 0px;
     }
 
-    .materias-escolares .card.vertical .texto-conteudo-materia h4 {
+    .materias-escolares .card .texto-conteudo-materia h4 {
         font-size: 1rem;
     }
 
-    .materias-escolares .card.vertical .pessoa-materia img.imagem-materia {
+    .materias-escolares .card .pessoa-materia img.imagem-materia {
         width: 50px;
         height: 50px;
     }
 
-    .materias-escolares .card.vertical h3 {
+    .materias-escolares .card h3 {
         font-size: 1.5rem;
     }
 
-    .materias-escolares .card.vertical .conteudo-card q {
+    .materias-escolares .card .conteudo-card q {
         font-size: 0.7rem;
         line-height: 1.5rem;
     }
 
-    .materias-escolares .card.vertical .conteudo-card q::before {
+    .materias-escolares .card .conteudo-card q::before {
         font-size: 4rem;
     }
 
@@ -423,4 +423,6 @@
     }
 
 }
+
+
 
