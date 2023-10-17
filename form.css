@@ -1,0 +1,105 @@
+
+.contato{
+    padding-top: 80px;
+    height: 80vh;
+ }
+
+ .contato .text-content h2{
+    font-size: 3rem;
+    font-weight: bolder;
+ }
+
+ .contato form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    width: 45%;
+ }
+
+ .contato form .row{
+    display: flex;
+    margin-bottom: 20px;
+    height: 100%;
+    width: 100%;
+ }
+
+ .contato form .row .input-field{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+    width: 100%;
+ }
+
+ .contato form .row .input-field input{
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    width: 100%;
+    border: 1px solid black;
+ }
+
+ .contato form .row .input-field label{
+   font-size: 1.2rem;
+   font-weight: bold;
+   margin-bottom: 10px;   
+ }
+
+ .contato form .row .input-field textarea{
+    padding: 5px;
+    border-radius: 4px;
+    width: 100%;
+    resize: vertical;
+    font-size: 1.2rem;
+    border: 1px solid black;
+ }
+
+ .contato form .buttonForm button{
+    font-size: 1.3rem;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    border: none;
+ }
+
+ .error{
+   color: red;
+   padding-top: 8px;
+ }
+
+ @media screen and (max-width:992px){
+    .contato .text-content h2{
+        font-size: 2rem;  
+     }
+    
+     .contato form{
+        width: 80%;
+     }
+     .contato form .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+     }
+     .contato form .row .input-field{
+        margin: 0px;
+        margin-bottom: 20px;
+     }
+     .contato form .row .input-field input{
+        font-size: 1rem;
+     }
+     .contato form .row .input-field label{
+        font-size: 1rem;
+     }
+     .contato form .row .input-field textarea{
+        font-size: 1rem;
+     }
+     .contato form .buttonForm button{
+        font-size: 1rem;
+        
+     }
+
+    
+ }
