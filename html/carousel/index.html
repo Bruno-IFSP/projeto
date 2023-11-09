@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarouselCSS</title>
+    <link rel="stylesheet" href="./carousel.css">
+    <style>
+        /* Custom style, not part of the framework */
+        html, body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .carousel{
+            width: 50rem;
+            height: 25rem;
+        }
+
+        .carousel-slide:nth-child(1){
+            background-image: url("reporta2.jpg");
+            background-position: center  top;
+    background-size: cover  ;
+    background-repeat: no-repeat;
+
+        }
+
+        .carousel-slide:nth-child(2){
+            background-image: url("reporta3.jpg");
+            background-position: center  top;
+    background-size: cover  ;
+    background-repeat: no-repeat;
+        }
+
+        .carousel-slide:nth-child(3){
+            background-image: url("reporta4.jpg");
+            background-position: center  top;
+    background-size: cover  ;
+    background-repeat: no-repeat;
+        }
+
+        .carousel-slide:nth-child(4){
+            background-image: url("reporta5.jpg");
+            background-position: center  top;
+    background-size: cover  ;
+    background-repeat: no-repeat;
+
+        }
+        h2{
+    color: rgb(255, 251, 251);
+     
+   
+     
+}
+
+    </style>
+</head>
+<body>
+    <div class="carousel">
+
+        <input type="radio" id="carousel-css-slide-1" name="carousel-css" value="slide-1" checked/>
+        <input type="radio" id="carousel-css-slide-2" name="carousel-css" value="slide-2"/>
+        <input type="radio" id="carousel-css-slide-3" name="carousel-css" value="slide-3"/>
+        <input type="radio" id="carousel-css-slide-4" name="carousel-css" value="slide-4"/>
+
+        <label for="carousel-css-slide-1" data-value="slide-1"></label>
+        <label for="carousel-css-slide-2" data-value="slide-2"></label>
+        <label for="carousel-css-slide-3" data-value="slide-3"></label>
+        <label for="carousel-css-slide-4" data-value="slide-4"></label>
+
+        <div class="carousel-wrapper">
+            <div class="carousel-slide">
+            <h2> Enem 2019: fotografia da prova de redação vaza e é distribuída por WhatsApp </h2>
+ 
+            </div>
+            <div class="carousel-slide">
+            <h2> Enem terá provas online em 2020. Em 2026, exame será 100% digital </h2>
+              .
+            </div>
+            <div class="carousel-slide">
+                <h2> MEC descarta cancelamento do Enem após vazamento de provas</h2>
+
+
+            </div>
+            <div class="carousel-slide">
+            <h2> Lula visita sala de monitoramento do Enem e garante que alunos não serão prejudicados por chuvas</h2>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
