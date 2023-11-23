@@ -1,0 +1,44 @@
+<?php
+include('config.php');
+
+// Verifica se há dados no array $_POST['respostas']
+// echo (isset($_POST['pergunta1']));
+
+//primeiro: pegar o hidden com o número de perguntas via post.
+//segundo: criar um for com o número de iterações sendo o valor retornado no hidden anterior
+// terceiro: para cada pergunta valida, entrar no IF abaixo.
+$i = 0;
+$nPergunta = $_POST['qtdPerguntaProva'];
+while ($i < $nPergunta){
+    $idpergunta = $_POST['pergunta['.$i.']'];
+    if (isset($_POST['respostaPergunta['.$i.']'])) {
+        $idresposta = $_POST['respostaPergunta['.$i.']'];
+        $query = "SELECT correta FROM perguntaalternativa WHERE idpergunta = idpergunta and $idresposta = $idresposta"; 
+        $resultado = mysqli_query($conn, $query);
+        if ($resultado) {
+            $row = mysqli_fetch_assoc($resultado);
+
+            // Verifica se a alternativa selecionada está correta
+            if ($row['correta'] == 'S') {
+                // Insere na tabela tentativapergunta
+                $queryInsert = "INSERT INTO tentativapergunta (idpergunta, idalternativa) VALUES ('$idPergunta', '$idAlternativaEscolhida')";
+                $resultadoInsert = mysqli_query($conn, $queryInsert);
+
+                // Lógica adicional, se necessário
+            } else {
+                // Lida com a lógica de resposta incorreta, se necessário
+            }
+        }
+        }
+
+    
+    } // Exibe a mensagem de sucesso ou redireciona para outra página
+    // // Exibe a mensagem de sucesso ou redireciona para outra página
+    echo "<p>Respostas enviadas com sucesso!</p>";
+    else {
+        // Nenhuma resposta foi enviada
+        echo "<p>Nenhuma resposta foi enviada.</p>";
+        
+    }
+    
+?>
