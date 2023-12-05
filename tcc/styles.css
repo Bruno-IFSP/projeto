@@ -1,0 +1,440 @@
+
+.hero{
+    
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assetss/background.jpg);
+    background-size: cover;
+}
+
+.professor .hero{
+    background-image: url(assetss/6016x4016.jpg);
+}
+
+.hero .text-content{
+    color: white;
+    text-align: center;
+}
+
+.hero .text-content h1{
+    font-size: 70px; 
+    margin-bottom: 15px;
+    color: black;
+}
+
+.hero .text-content h3{
+    font-size: 35px; 
+    margin-bottom: 15px;
+    color: black;  
+              
+}
+
+.hero .text-content button{
+    width: 250px;
+    color: rgb(255, 255, 255);
+    border-radius: 999px;
+    font-size: 16px;
+    height: 50px;
+    background-color:var(--primary);
+    border: 1px solid var(--primary);
+    cursor: pointer;
+}
+
+.hero .text-content button:hover{
+    background-color:white;
+    border: 5px solid white;
+    color: #663399;;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.beneficios h2{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.beneficios .item{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+}
+
+.beneficios .item .itemPhoto{
+    display: flex;
+    justify-content: left;
+ }
+
+.beneficios .item.reverse{
+    flex-direction: row-reverse;
+
+}
+
+.beneficios .item.item.reverse .itemPhoto{
+    justify-content: right;
+ }
+
+.beneficios .item .itemPhoto .ImgItem{
+    width: 80%;
+    height: auto;
+}
+
+.beneficios .item .Item-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 50%;
+    max-width: 50vw;
+    line-height: 2em;
+    font-size: 20px;
+}
+.beneficios h2{
+    font-size: 45px; 
+    margin-bottom: 15px;
+
+}
+
+.beneficios .item .Item-text h3{
+    color: #7B68EE; 
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+
+.beneficios .item .itemPhotoRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.beneficios .item .itemPhotoRight .ImgItem {
+    width: 60%;
+    height: auto;
+}
+
+
+.materias-escolares {
+    min-height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(123, 104, 238, 0.7), rgba(221, 160, 221, 0.7));
+    text-align: left;
+}
+
+.materias-escolares .texto h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.materias-escolares .texto p {
+    font-size: 1.1rem;
+}
+
+.materias-escolares .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-image: linear-gradient(to top, rgba(123, 104, 238, 0.7), rgba(221, 160, 221, 0.7));
+    text-align: left;
+    padding: 20px;
+}
+
+.materias-escolares .materias-superiores,
+.materias-escolares .materias-inferiores {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.materias-escolares .card {
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.materias-escolares .card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color:#7B68EE; 
+}
+
+.professor .materias-escolares .card {
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.materias-escolares .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-image: linear-gradient(to top, rgba(123, 104, 238, 0.7), rgba(221, 160, 221, 0.7));
+    text-align: left;
+    padding: 20px;
+}
+
+.materias-escolares .materias-superiores,
+.materias-escolares .materias-inferiores {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+/* .materias-escolares .materias-superiores .card,
+.materias-escolares .materias-inferiores .card {
+    width: calc(25% - 20px);
+} */
+
+
+.materias-escolares .btn-simulados {
+    background-color: white;
+    border: 5px solid white;
+    color: #663399;
+    transition: 0.5s;
+    cursor: pointer;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.materias-escolares .btn-simulados:hover {
+    background-color: #663399;
+    color: white;
+}
+
+
+.imagem-materia {
+    width: 100px;
+    height: 100px;
+}
+
+
+.conheca{
+    min-height: 80vh;
+}
+
+.conheca .text-content{
+    margin: 30px 0px 80px 0;
+    text-align: center;
+}
+
+.conheca .text-content h2{ 
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.conheca .text-content p{ 
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.conheca .cards{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.conheca .cards .card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px 20px 10px 30px;
+    box-shadow: 2px 2px 6px 2px rgb(0,0,0,0.4);
+    text-align: left;
+    width: 20%;
+    border-radius: 10px;
+    min-width: 100px;
+    height: 200px;
+}
+
+.conheca .cards .card .cardContent{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.conheca .cards .card .cardContent h3{
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+ }
+
+ .fotos .text-content{
+    margin: 0px 0px 80px 0;
+    text-align: center;
+ }
+
+ .fotos .text-content h2{
+   font-size: 3rem;
+   font-weight: bolder;
+ }
+
+ .fotos .listPhotos{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .fotos .listPhotos .Photo{
+    height: auto;
+    width: 33%;
+ }
+
+
+ @media screen and (max-width:992px) {
+        
+    .hero .text-content h1{
+        font-size: 2.5rem;
+    }
+    .hero .text-content h3{
+        font-size: 1.3rem;
+    }
+    .beneficios .item{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .beneficios .item.reverse{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .beneficios .item .itemPhoto{
+        justify-content: center;
+        align-items: center; 
+    }
+    .beneficios .item.reverse .itemPhoto{
+        justify-content: center;
+        align-items: center; 
+    }
+    .beneficios .item .Item-text{
+        max-width: 100%;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .beneficios .item.reverse .Item-text{
+        max-width: 100%;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .beneficios .item .itemPhoto{       
+        width: 100%;
+        aspect-ratio: 16/9;        /*  DEIXANDO IMAGEM DO MESMO TAMANHO */
+        overflow: hidden;
+     }
+
+     .materias-escolares .card h3 {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .materias-escolares .card .conteudo-card p {
+        font-size: 0.9rem;
+    }
+
+    .materias-escolares .card {
+        flex-direction: column;
+        padding: 0px;
+        width: 90%;
+    }
+
+    .materias-escolares .card .pessoa-materia {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .materias-escolares .card .texto-conteudo-materia {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .materias-escolares .card .texto-conteudo-materia h4 {
+        font-size: 1rem;
+    }
+
+    .materias-escolares .card .pessoa-materia img.imagem-materia {
+        width: 50px;
+        height: 50px;
+    }
+
+    .materias-escolares .card h3 {
+        font-size: 1.5rem;
+    }
+
+    .materias-escolares .card .conteudo-card q {
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+    }
+
+    .materias-escolares .card .conteudo-card q::before {
+        font-size: 4rem;
+    }
+
+    .conheca .text-content h2{ 
+        font-size: 2rem;
+    }
+    
+    .conheca .text-content p{ 
+        font-size: 0.9rem;
+    }
+    .conheca .cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conheca .cards .card{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .conheca .cards .card .cardContent h3{
+        font-size: 1rem;
+       }
+       
+    .fotos .text-content h2{
+        font-size: 2rem;
+    }
+    .fotos .listPhotos{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fotos .listPhotos .Photo{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+}
+

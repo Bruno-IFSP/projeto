@@ -1,0 +1,85 @@
+/* Defina uma fonte de texto que parece com uma caligrafia ou escrita à mão */
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho (título) */
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #333;
+}
+
+/* Estilo para o contêiner principal do conteúdo */
+.simulado-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para botões com uma aparência de botão de papel */
+button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Estilo para o resultado final */
+#resultado {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para as perguntas */
+.question {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para as opções das perguntas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+}
+
+/* Estilo para o tempo restante */
+#resultado {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

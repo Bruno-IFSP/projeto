@@ -1,0 +1,117 @@
+nav{
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    z-index: 999;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    margin-left: 20px;
+    height: 100%;
+}
+nav ul li{
+    margin-right: 25px;
+    font-size: 20px;
+    color: white;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li button{
+    width: 150px;
+    --primary:#7B68EE;
+    border-radius: 999px;
+    font-size: 16px;
+    border: 5px solid white;
+    height: 50px;
+}
+
+nav ul li button:hover{
+    background-color:#663399;
+    border: 5px solid #663399;
+    color: white;
+    transition: 0.5s;
+}
+
+nav .menu{
+    display: none;
+}
+
+aside{
+    display: none;
+}
+
+.background{
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    
+    nav ul{
+        display: none;
+    }
+    nav .menu{
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+    aside{
+        translate: -280px;
+        height: 90vh;
+        position: fixed;
+        top: 10vh;
+        width: 280px;
+        background-color: white;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 40px;
+    }
+    aside ul .buttonSidebar{
+        background-color: var(--primary) !important;
+    }
+    aside ul .buttonSidebar a{
+        color: white !important;
+    }
+    aside ul li{
+        margin-bottom: 30px;
+        text-align: center;
+        border: 3px solid var(--primary);
+        border-radius: 50px;
+        padding: 15px;
+        width: 180px;
+        background-color: white;
+        list-style-type: none;
+    }
+    aside ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .background{
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(0, 0,0,0.6);
+        top: 10px;
+        z-index: 899;
+    }
+}
